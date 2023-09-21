@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/heroImg.png" type="image/png" />
+    <title>RK STORE</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="nav-title">
+          <a href="#landing-page" class="item-nav-title">
+            <img id="hero-nav-img" src="assets/heroImg.png" alt="hero image" />
+          </a>
+          <a href="#landing-page" class="item-nav-title">
+            <h5>RK STORE</h5>
+          </a>
+        </div>
+        <div id="link">
+          <a href="#tentang">Tentang</a>
+          <a href="#produk">Produk</a>
+          <a href="#ulasan">Ulasan</a>
+          <a href="#kontak">Kontak</a>
+        </div>
+        <div id="ham-button">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </nav>
+      <div id="ham-items" hidden>
+        <a href="#tentang">Tentang</a>
+        <a href="#produk">Produk</a>
+        <a href="#ulasan">Ulasan</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+    </header>
+
+    <main>
+      <article id="landing-page">
+        <div class="landing-page-item">
+          <img id="hero-image" src="assets/heroImg.png" alt="hero image" />
+        </div>
+        <div class="landing-page-item">
+          <article id="hero-title">
+            <h1>RK STORE</h1>
+            <p>Penjual miniatur kereta api dengan kualitas tinggi!</p>
+          </article>
+        </div>
+      </article>
+
+      <article id="tentang">
+        <h2>Tentang</h2>
+        <p>
+          RK STORE adalah marketplace untuk miniatur kereta api yang cocok
+          sebagai koleksi pajangan dan juga dapat dimainkan. Kami menjual
+          berbagai macam jenis kereta api mulai dari lokomotif, gerbong, varian
+          rel dan aksesoris yang berhubungan dengan produk kami lainnya.
+        </p>
+      </article>
+
+      <article id="produk">
+        <h2>Produk</h2>
+        <div class="container-card">
+          <section class="card">
+            <img
+              class="product-img"
+              src="assets/loko_sound.jpg"
+              alt="loco sound"
+            />
+            <div class="captions">
+              <h3>Loko Sound</h3>
+              <p>Lokomotif kereta api bersuara</p>
+              <p><strong>Rp 15.000</strong></p>
+              <button>Pesan</button>
+            </div>
+          </section>
+          <section class="card">
+            <img
+              class="product-img"
+              src="assets/gerbong_pasir.jpg"
+              alt="gerbong pasir"
+            />
+            <div class="captions">
+              <h3>Pengangkut Pasir</h3>
+              <p>Gerbong pengangkut pasir</p>
+              <p><strong>Rp 10.000</strong></p>
+              <button>Pesan</button>
+            </div>
+          </section>
+          <section class="card">
+            <img
+              class="product-img"
+              src="assets/rel_lengkung.jpg"
+              alt="rel lengkung"
+            />
+            <div class="captions">
+              <h3>Rel Lengkung</h3>
+              <p>1 pcs rel bentuk melengkung</p>
+              <p><strong>Rp 5.000</strong></p>
+              <button>Pesan</button>
+            </div>
+          </section>
+        </div>
+      </article>
+
+      <article id="ulasan">
+        <h2>Ulasan</h2>
+        <div class="graph">
+          <div class="start-capt">
+            <strong>⭐5</strong>
+            <strong>⭐4</strong>
+            <strong>⭐3</strong>
+            <strong>⭐2</strong>
+            <strong>⭐1</strong>
+          </div>
+          <div class="start-grap">
+            <div class="box lima"></div>
+            <div class="box empat"></div>
+            <div class="box tiga"></div>
+            <div class="box dua"></div>
+            <div class="box satu"></div>
+          </div>
+        </div>
+      </article>
+
+      <article id="kontak">
+        <h2>Kontak</h2>
+        <form action="">
+          <p>Untuk pertanyaan anda lebih lanjut silahkan kirim pesan.</p>
+          <div class="input">
+            <label for="nama">Nama</label>
+            <input type="text" name="nama" id="nama" />
+          </div>
+          <div class="input">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" />
+          </div>
+          <div class="input">
+            <label for="pesan">Pesan</label>
+            <textarea name="pesan" id="pesan" cols="30" rows="5"></textarea>
+          </div>
+        </form>
+      </article>
+
+      <aside>
+        <img src="assets/heroImg.png" alt="logo toko" width="60px">
+        <div>
+          <p>Alamat: Jl.Wumbo No.12, Kota Wumbo</p>
+          <p>Operasional: 08.00 - 16.00 WIB</p>
+          <p>Telp: 0812345689</p>
+          <p>Sosmed: @rk_crb (instagram)</p>
+        </div>
+      </aside>
+    </main>
+    
+    <footer>
+      <p>&copy;2023 <em>RK STORE</em></p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
