@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'PT+Sans';
+  font-family: "PT+Sans";
   color: rgb(114, 105, 105);
 }
 body {
@@ -27,7 +27,7 @@ nav {
   opacity: 95%;
 }
 #nav-title {
-  width: 6rem;
+  width: 7rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -43,7 +43,7 @@ nav {
 }
 #link > a {
   display: inline-block;
-  font-size: 14px;
+  font-size: 18px;
   padding: 0.4rem 0.8rem;
 }
 #link > a:hover {
@@ -61,7 +61,7 @@ nav {
 }
 #ham-items > a {
   margin: 0.4rem 0.4rem;
-  font-size: 12px;
+  font-size: 18px;
   color: black;
   text-decoration: none;
   display: block;
@@ -102,7 +102,7 @@ nav {
   text-align: center;
 }
 #hero-title > p {
-  font-size: 12px;
+  font-size: 14px;
   text-align: justify;
 }
 
@@ -120,6 +120,7 @@ nav {
 #tentang > p {
   text-align: justify;
   margin-top: 10px;
+  font-size: 18px;
 }
 
 #produk {
@@ -141,11 +142,12 @@ nav {
   justify-content: space-around;
 }
 .card {
+  width: 187px;
+  font-size: 18px;
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 12px;
   margin: 5px;
   padding: 5px;
   border: 1px solid #7cd6b8;
@@ -153,7 +155,7 @@ nav {
   box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.5);
 }
 .product-img {
-  width: 150px;
+  width: 175px;
   border-radius: 15px;
 }
 .captions {
@@ -168,6 +170,7 @@ nav {
   border: none;
   padding: 5px;
   cursor: pointer;
+  font-size: 18px;
 }
 .captions > button:active {
   background-color: #a8b4b0;
@@ -248,7 +251,7 @@ nav {
   border-bottom: 3px double #7cd6b8;
 }
 form {
-  height: 14rem;
+  height: 18rem;
   display: flex;
   flex-direction: column;
   padding: 2rem;
@@ -259,27 +262,29 @@ form {
   box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.5);
 }
 form > p {
-  font-size: 10px;
-
+  font-size: 14px;
   text-align: center;
 }
 .input {
   display: flex;
   flex-direction: column;
 }
+.submit, label, input, textarea {
+  font-size: 18px;
+}
 
-aside{
+aside {
   margin: 2.5rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 12px;
+  font-size: 14px;
   height: 8rem;
   justify-content: space-between;
 }
 
 /* footer */
-footer{
+footer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -287,9 +292,10 @@ footer{
   background-color: rgb(42, 40, 40);
   justify-content: center;
 }
-footer p, footer em{
+footer p,
+footer em {
   color: white;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 @media screen and (max-width: 430px) {
@@ -324,16 +330,15 @@ footer p, footer em{
     padding: 4rem 1rem;
   }
   #tentang > p {
-    font-size: 12px;
+    font-size: 14px;
   }
   form {
     padding: 0.5rem;
   }
   form > p {
-    font-size: 8px;
-  }
-  .input > label,
-  .input > input {
     font-size: 12px;
+  }
+  .submit, label, input, textarea {
+    font-size: 14px;
   }
 }
