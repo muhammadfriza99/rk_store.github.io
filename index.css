@@ -55,14 +55,14 @@ nav {
 
 #ham-items {
   position: absolute;
-  top: 34px;
+  top: 4rem;
   right: 4px;
   background-color: white;
   box-shadow: 0px 0px 2px;
   opacity: 95%;
 }
 #ham-items > a {
-  margin: 0.4rem 0.4rem;
+  margin: 1rem 0.4rem;
   font-size: 18px;
   color: black;
   text-decoration: none;
