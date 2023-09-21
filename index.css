@@ -14,8 +14,10 @@ body {
 header {
   position: sticky;
   top: 0;
+  height: 4rem;
 }
 nav {
+  height: 100%;
   position: relative;
   top: 0;
   width: 100%;
@@ -27,7 +29,7 @@ nav {
   opacity: 95%;
 }
 #nav-title {
-  width: 7rem;
+  width: 8rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
